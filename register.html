@@ -11,20 +11,21 @@
 	<div class="container">
 		<h1 class="label">Register Here</h1>
 		<form class="login_form">
-			<div class="font">Full Name</div>
+			<div id="name" class="font">Full Name</div>
 			<input type="text" name="">
-			<div class="font">Contact No.</div>
+			<div id="number" class="font">Contact No.</div>
 			<input type="number" name="">
-			<div class="font">Email Id</div>
+			<div id="email" class="font">Email Id</div>
 			<input type="email" name="">
-			<div class="font">Username</div>
+			<div id="usr" class="font">Username</div>
 			<input type="text" name="">
-			<div class="font font2">New Password</div>
+			<div id="pass" class="font font2">New Password</div>
 			<input type="Password" name="">
-			<button type="submit">Register</button>
+			<button type="submit" value="submit" onclick="send()">Register</button>
 			<p>Already Register, <a href="login.html" target="_blank" >Login Here</a></p>
 		</form>
 		
 	</div>
+	<script type="text/javascript" src="register.js"></script>
 </body>
 </html>
